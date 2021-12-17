@@ -17,4 +17,5 @@ fn main() {
     };
 
     println!("{}", person2.age);
+    println!("{}", person2.first_name);
 }
