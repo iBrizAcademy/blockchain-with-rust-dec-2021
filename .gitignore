@@ -11,4 +11,5 @@ Cargo.lock
 
 .idea
 
-output
+target
+.env
