@@ -43,6 +43,7 @@ fn main() {
             .expect("Please enter correct value");
 
         if guess.trim() == answer.to_string() {
+            println!("Correct");
             score += 1;
         } else {
             println!("Sorry wrong guess");
@@ -58,7 +59,7 @@ fn main() {
                 .expect("Please enter the correct value.");
 
             match guess.trim().to_ascii_lowercase().as_str() {
-                "y" | "bye" => break,
+                "y" => break,
                 _ => println!("you choose to continue"),
             }
             score = 0;
