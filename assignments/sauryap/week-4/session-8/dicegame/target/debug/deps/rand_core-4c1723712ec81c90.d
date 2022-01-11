@@ -1,0 +1,12 @@
+C:\Users\shaur\Documents\rust\dicegame\target\debug\deps\rand_core-4c1723712ec81c90.rmeta: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\os.rs
+
+C:\Users\shaur\Documents\rust\dicegame\target\debug\deps\librand_core-4c1723712ec81c90.rlib: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\os.rs
+
+C:\Users\shaur\Documents\rust\dicegame\target\debug\deps\rand_core-4c1723712ec81c90.d: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\os.rs
+
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\lib.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\block.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\error.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\impls.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\le.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\rand_core-0.6.3\src\os.rs:

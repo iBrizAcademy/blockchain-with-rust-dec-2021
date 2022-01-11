@@ -24,8 +24,6 @@ fn checkanagram(word1:&str, word2:&str) -> bool {
         }
     }
 
-    
-
     if c == word1.len(){
         return true
     }else {

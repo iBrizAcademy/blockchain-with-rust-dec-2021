@@ -1,0 +1,12 @@
+C:\Users\shaur\Documents\rust\cryptoTicker\target\debug\deps\httparse-a2dbda279f466838.rmeta: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\iter.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\macros.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\mod.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\sse42.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\avx2.rs
+
+C:\Users\shaur\Documents\rust\cryptoTicker\target\debug\deps\libhttparse-a2dbda279f466838.rlib: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\iter.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\macros.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\mod.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\sse42.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\avx2.rs
+
+C:\Users\shaur\Documents\rust\cryptoTicker\target\debug\deps\httparse-a2dbda279f466838.d: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\iter.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\macros.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\mod.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\sse42.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\avx2.rs
+
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\lib.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\iter.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\macros.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\mod.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\sse42.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.5.1\src\simd\avx2.rs:

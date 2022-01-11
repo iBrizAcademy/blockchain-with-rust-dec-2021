@@ -1,0 +1,11 @@
+c:\Users\shaur\Documents\Bootcamp\blockchain-with-rust-dec-2021\assignments\sauryap\week-4\session-8\cryptoTicker\target\rls\debug\deps\tinyvec-db04e6414e919e90.rmeta: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array\generated_impl.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec_drain.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\slicevec.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\tinyvec.rs
+
+c:\Users\shaur\Documents\Bootcamp\blockchain-with-rust-dec-2021\assignments\sauryap\week-4\session-8\cryptoTicker\target\rls\debug\deps\tinyvec-db04e6414e919e90.d: C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\lib.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array\generated_impl.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec_drain.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\slicevec.rs C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\tinyvec.rs
+
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\lib.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\array\generated_impl.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\arrayvec_drain.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\slicevec.rs:
+C:\Users\shaur\.cargo\registry\src\github.com-1ecc6299db9ec823\tinyvec-1.5.1\src\tinyvec.rs:

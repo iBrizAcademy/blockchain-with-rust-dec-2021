@@ -1,0 +1,13 @@
+prefix=c:\Users\shaur\Documents\Bootcamp\blockchain-with-rust-dec-2021\assignments\sauryap\week-4\session-8\cryptoTicker\target\rls\debug\build\libz-sys-1dc7ce1723d68740\out
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+sharedlibdir=@sharedlibdir@
+includedir=@includedir@
+
+Name: zlib
+Description: zlib compression library
+Version: @VERSION@
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
