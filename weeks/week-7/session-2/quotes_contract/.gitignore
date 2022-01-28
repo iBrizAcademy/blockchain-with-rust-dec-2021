@@ -1,0 +1,4 @@
+.idea
+.quotes_solana/target
+.quotes_solana/dist
+.quotes_client/node_modules

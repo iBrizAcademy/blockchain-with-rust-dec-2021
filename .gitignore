@@ -12,3 +12,7 @@ Cargo.lock
 .idea
 
 output
+
+./weeks/week-7/session-2/quotes_client/node_modules/
+./weeks/week-7/session-2/quotes_solana/dist/
+./weeks/week-7/session-2/quotes_solana/target/
