@@ -1,3 +1,4 @@
+use std::str::from_utf8;
 use borsh::{BorshDeserialize, BorshSerialize};
 use solana_program::{
     account_info::{next_account_info, AccountInfo},
@@ -21,7 +22,7 @@ entrypoint!(process_instruction);
 pub fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
-    _instruction_data: &[u8],
+    instruction_data: &[u8],
 ) -> ProgramResult {
     msg!("Quote of the day Solana Program");
 
@@ -35,7 +36,12 @@ pub fn process_instruction(
 
     let mut quote_account = QuoteAccount::try_from_slice(&account.data.borrow())?;
     quote_account.counter += 1;
-    quote_account.quote = String::from("Quote " + &quote_account.counter.to_string());
+    let quote_string = from_utf8(instruction_data).map_err( |err| {
+        msg!("Invalid UTF-8 from byte {}", err.valid_up_to());
+        ProgramError::InvalidInstructionData
+    })?;
+    msg!("{} Bytes of new quote: {:?}", quote_string.len(), quote_string);
+    quote_account.quote = String::from(quote_string);
 
     quote_account.serialize(&mut &mut account.data.borrow_mut()[..])?;
 
