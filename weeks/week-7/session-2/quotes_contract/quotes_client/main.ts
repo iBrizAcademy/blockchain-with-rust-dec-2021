@@ -23,10 +23,10 @@ async function main() {
   await checkProgram();
 
   // Say hello to an account
-  await setQuote();
+  await setQuote("QUOTES3");
 
   // Find out how many times that account has been greeted
-  // await getQuote();
+  await getQuote();
 
   console.log('Success');
 }

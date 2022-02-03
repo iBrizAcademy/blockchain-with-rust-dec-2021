@@ -19,24 +19,25 @@ let connection: Connection;
 let payer: Keypair;
 let programId: PublicKey;
 let quotesPubKey: PublicKey;
-const PROGRAM_PATH = path.resolve(__dirname, '../quotes_solana/dist/program');
+const PROGRAM_PATH = path.resolve(__dirname, '../quotes_solana/target/deploy');
 const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'quotes_solana.so');
 
 const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'quotes_solana-keypair.json');
 
+export const DUMMY_TX_ID = "0000000";
+
 class QuoteAccount {
-    quote = '';
-    counter = 0;
-    constructor(fields: {quote: string, counter: number} | undefined = undefined) {
+    counter:number = 0;
+    quote:string = DUMMY_TX_ID;
+    constructor(fields: { counter: number, quote: string} | undefined = undefined) {
         if (fields) {
-            this.quote = fields.quote;
             this.counter = fields.counter;
+            this.quote = fields.quote;
         }
     }
 }
-
 const QuoteSchema = new Map([
-    [QuoteAccount, {kind: 'struct', fields: [['quote', 'String'],['counter', 'u32']]}],
+    [QuoteAccount, {kind: 'struct', fields: [['counter', 'u32'],['quote', 'String']]}],
 ]);
 
 const QUOTES_SIZE = borsh.serialize(
@@ -150,17 +151,21 @@ export async function checkProgram(): Promise<void> {
 }
 
 
-export async function setQuote(): Promise<void> {
+export async function setQuote(quoteString: string): Promise<void> {
     console.log('Saying hello to', quotesPubKey.toBase58());
     const instruction = new TransactionInstruction({
         keys: [{pubkey: quotesPubKey, isSigner: false, isWritable: true}],
         programId,
-        data: Buffer.alloc(0), // All instructions are hellos
+        data: Buffer.from(quoteString, 'utf8'),
     });
     await sendAndConfirmTransaction(
         connection,
         new Transaction().add(instruction),
         [payer],
+        {
+            commitment: 'singleGossip',
+            preflightCommitment: 'singleGossip',
+        },
     );
 }
 
@@ -170,12 +175,15 @@ export async function getQuote(): Promise<void> {
     if (accountInfo === null) {
         throw 'Error: cannot find the quotes account';
     }
+
+    console.log('getQuotes >>', quotesPubKey.toBase58(), ':', accountInfo.data.toString());
+
     const latestQuote = borsh.deserialize(
         QuoteSchema,
         QuoteAccount,
         accountInfo.data,
     );
-    console.log('Qoute Public Key:', quotesPubKey.toBase58())
+    // console.log('Qoute Public Key:', quotesPubKey.toBase58())
     console.log('Latest quote:', latestQuote.quote);
     console.log('Quote Counter:', latestQuote.counter);
 
