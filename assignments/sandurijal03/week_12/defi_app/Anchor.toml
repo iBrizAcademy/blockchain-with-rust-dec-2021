@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+defi_app = "99DwSCgBXD3DsAq4CUqtXihiUT74VxMK1sUzNStKzN6e"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/sande/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"

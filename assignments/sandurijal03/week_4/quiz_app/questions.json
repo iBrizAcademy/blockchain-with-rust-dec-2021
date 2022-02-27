@@ -1,0 +1,82 @@
+[
+  {
+    "question": "When was c language discovered?",
+    "optionA": "1962",
+    "optionB": "1972",
+    "optionC": "1982",
+    "optionD": "1992",
+    "answer": "1"
+  },
+  {
+    "question": "Which was first programming language?",
+    "optionA": "C",
+    "optionB": "Fortran",
+    "optionC": "C++",
+    "optionD": "Haskel",
+    "answer": "2"
+  },
+  {
+    "question": "When was first computer virus found?",
+    "optionA": "1990",
+    "optionB": "1980",
+    "optionC": "1986",
+    "optionD": "1984",
+    "answer": "3"
+  },
+  {
+    "question": "Who is first lady Programmer?",
+    "optionA": "Angela Markel",
+    "optionB": "Madam Curie",
+    "optionC": "Elizabeth",
+    "optionD": "Lady Augusta",
+    "answer": "4"
+  },
+  {
+    "question": "Which was first computer game created?",
+    "optionA": "space war",
+    "optionB": "mario",
+    "optionC": "dave",
+    "optionD": "counter strike 1.6",
+    "answer": "1"
+  },
+  {
+    "question": "When was rust language first appeared?",
+    "optionA": "2009 March 7",
+    "optionB": "2011 July 7",
+    "optionC": "2010 July 7",
+    "optionD": "2012 April 7",
+    "answer": "3"
+  },
+  {
+    "question": "What does Q in QBasics stand for?",
+    "optionA": "quit",
+    "optionB": "quick",
+    "optionC": "quote",
+    "optionD": "quite",
+    "answer": "2"
+  },
+  {
+    "question": "What function is automatically called in low level language program?",
+    "optionA": "main",
+    "optionB": "abs",
+    "optionC": "next line",
+    "optionD": "getline",
+    "answer": "1"
+  },
+  {
+    "question": "What was original name for java?",
+    "optionA": "ada",
+    "optionB": "c++",
+    "optionC": "oak",
+    "optionD": "lisp",
+    "answer": "3"
+  },
+  {
+    "question": "What organization sets standards that are used across the internet?",
+    "optionA": "Apple",
+    "optionB": "Google",
+    "optionC": "Microsoft",
+    "optionD": "The world wide web consortum",
+    "answer": "4"
+  }
+]
